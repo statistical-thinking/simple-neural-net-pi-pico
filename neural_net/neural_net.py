@@ -13,6 +13,8 @@ GREEN = 0xE007
 BLUE = 0x1F00
 WHITE = 0xFFFF
 BLACK = 0x0000
+
+# Display initialisieren
 class LCD_0inch96(framebuf.FrameBuffer):
     def __init__(self):
     
