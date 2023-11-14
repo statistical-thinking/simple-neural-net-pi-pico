@@ -246,7 +246,7 @@ def hell_entrance():
         elif (KEY_B.value() == 0):
             lcd.fill(BLACK)
             lcd.text("YOU ARE A COWARD.",10,10,RED)
-            lcd.text("YOU ARE DYING",10,25,RED)
+            lcd.text("YOU WILL DIE",10,25,RED)
             lcd.text("OF OLD AGE!",10,40,RED)
             lcd.hline(0,0,160,RED)
             lcd.hline(0,79,160,RED)
